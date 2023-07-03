@@ -16,9 +16,9 @@ from numpy.random import randn # randn(d1,d2) is d1*d2 i.i.d N(0,1)
 import numpy as np
 from numpy import ma
 from sklearn.ensemble import ExtraTreesRegressor, RandomForestRegressor
-from sklearn.ensemble.forest import ForestRegressor
+from sklearn.ensemble._forest import ForestRegressor
 from sklearn.utils import check_array, check_random_state, check_X_y
-from sklearn.tree.tree import BaseDecisionTree
+from sklearn.tree import BaseDecisionTree
 from sklearn.tree import DecisionTreeRegressor, ExtraTreeRegressor
 import time
 now = time.time
